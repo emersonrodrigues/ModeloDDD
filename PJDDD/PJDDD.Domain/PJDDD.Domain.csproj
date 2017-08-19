@@ -30,11 +30,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Entities\Cliente.cs" />
+    <Compile Include="Entities\Produto.cs" />
+    <Compile Include="Interfaces\IClienteRepository.cs" />
+    <Compile Include="Interfaces\IProdutoRepository.cs" />
+    <Compile Include="Interfaces\IRepositoryBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Entities\" />
-    <Folder Include="Interfaces\" />
     <Folder Include="Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
