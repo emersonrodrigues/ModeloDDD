@@ -1,14 +1,14 @@
 ﻿using PJDDD.Domain.Entities;
-using PJDDD.Domain.Interfaces.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PJDDD.Infra.Data.Repositories
+namespace PJDDD.Application.Interfaces
 {
-    public class ClienteRepository :RepositoryBase<Cliente> ,IClienteRepository
+    public interface IProdutoAppService:IAppServiceBase<Produto>
     {
+        IEnumerable<Produto> BuscarPorNome(string Nome);
     }
 }

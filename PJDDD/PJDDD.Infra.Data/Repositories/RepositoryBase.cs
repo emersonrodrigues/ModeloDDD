@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using PJDDD.Domain.Interfaces;
+using PJDDD.Domain.Interfaces.Repositories;
 using PJDDD.Infra.Data.Contexto;
 using System.Linq;
 using System.Data.Entity;

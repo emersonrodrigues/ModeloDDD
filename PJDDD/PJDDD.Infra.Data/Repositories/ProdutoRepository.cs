@@ -1,5 +1,5 @@
 ﻿using PJDDD.Domain.Entities;
-using PJDDD.Domain.Interfaces;
+using PJDDD.Domain.Interfaces.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
